@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;  /*"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+.navbar-brand {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.navbar-brand > img {
+  display: block;
+  max-width: 100px;
+  max-height: 43px;
+  width: auto;
+  height: auto;
+}
+
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+  background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+
+.navbar-toggleable-md {
+  opacity: 1;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+/*.jumbotron p:last-child {
+  margin-bottom: 0;
+}*/
+
+/*.jumbotron-heading {
+  font-weight: 300;
+}*/
+
+/*.jumbotron .container {
+  max-width: 40rem;
+  /*max-height: 385px;
+  max-width: 1680px;*/
+}
+
+*/
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem; /* background-color: #f7f7f7;*/
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  display: block;
+  max-width: 356px;
+  max-height: 280px;
+  width: auto;
+  height: auto;
+}
+
+.card-text {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer > .row {
+  color: #ddd;
+  background-color: #282E34;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.col-sm-4 {
+  text-align: center;
+}

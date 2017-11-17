@@ -2,15 +2,23 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #777;
+	color: #777;	/*"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+	background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: yellow;
 }
 
 .navbar-toggleable-md {
 	opacity: 1;
-}
-
-.ul.navbar-nav.ml-auto {
-	color: black;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -22,31 +30,43 @@ body, html {
 	background-size: cover;
 }
 
+img {
+	display: block;
+	max-width: 100px;
+	max-height: 43px;
+	width: auto;
+	height: auto;
+}
+
 .bgimg-1 {
-	background-image: url('https://mspoweruser.com/wp-content/uploads/2016/11/quantum-computing.jpg');
+
+	/*background-image: url('https://mspoweruser.com/wp-content/uploads/2016/11/quantum-computing.jpg');*/
 	min-height: 100%;
 }
 
-.About-Us{
+.About-Us {
 	color: #777;
 	position: relative;
-	background-color:white;
-	text-align:center;
-	padding:50px 80px;
+	background-color: black;
+	text-align: center;
+	padding: 50px 80px;
 	text-align: justify;
 }
- h3, p {
-	text-align:center;
-	color: black;
+
+h3, p {
+	text-align: center;
+	color: white;
 }
 
 .bgimg-2 {
-	background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");
+
+	/*background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");*/
 	min-height: 400px;
 }
 
 .bgimg-3 {
-	background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");
+
+	/*background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");*/
 	min-height: 400px;
 }
 
@@ -60,28 +80,31 @@ body, html {
 }
 
 .caption {
+
 	/*background-color: #111;*/
-	color: #fff;
+	color: black;
 	padding: 18px;
 	font-size: 20px;
 	letter-spacing: 4px;
 }
-	.header-text h3 {
-		color: white;
-		font-size: 85px;
-		letter-spacing: 10px;
-	}
+
+.header-text h3 {
+	color: black;
+	font-size: 85px;
+	letter-spacing: 10px;
+}
 
 .footer {
-	position:relative;
+	position: relative;
 }
 
 .row {
-	color:#ddd;
-	background-color:#282E34;
-	padding:50px 80px;
+	color: #ddd;
+	background-color: #282E34;
+	padding: 50px 80px;
 	text-align: justify;
 }
+
 .col-sm-4 {
 	text-align: center;
 }
