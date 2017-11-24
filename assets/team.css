@@ -3,6 +3,8 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;  /*"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar-brand {
@@ -41,21 +43,16 @@ body, html {
   background-color: #fff;
 }
 
-/*.jumbotron p:last-child {
-  margin-bottom: 0;
-}*/
-
-/*.jumbotron-heading {
-  font-weight: 300;
-}*/
-
-/*.jumbotron .container {
-  max-width: 40rem;
-  /*max-height: 385px;
-  max-width: 1680px;*/
+.bgimg-2 {
+  background-image: url(images/campanile.jpg);
+  min-height: 240px;
+  margin-bottom: 50px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-*/
 
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
@@ -74,6 +71,8 @@ body, html {
 .card > img {
   margin-bottom: .75rem;
   display: block;
+  object-fit: cover;
+  // Center crop image
   max-width: 356px;
   max-height: 280px;
   width: auto;
@@ -82,8 +81,27 @@ body, html {
 
 .card-text {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
   text-align: center;
+  color: black;
+}
+
+.card-text > h5 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.card-text > p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.card-text > span {
+  color: gray;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .footer {
@@ -99,4 +117,12 @@ body, html {
 
 .col-sm-4 {
   text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width:1024px) {
+  .bgimg-2 {
+    background-attachment: scroll;
+  }
+
 }

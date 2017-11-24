@@ -3,6 +3,8 @@ body, html {
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #777;	/*"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .navbar.navbar-toggleable-md.navbar-light.bg-faded {
