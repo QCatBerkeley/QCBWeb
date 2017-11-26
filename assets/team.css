@@ -21,7 +21,9 @@ body, html {
 }
 
 .navbar.navbar-toggleable-md.navbar-light.bg-faded {
-  background-color: black;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -29,22 +31,11 @@ body, html {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: yellow;
-}
-
-.navbar-toggleable-md {
-  opacity: 1;
-}
-
-.jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-bottom: 0;
-  background-color: #fff;
+  color: gray;
 }
 
 .bgimg-2 {
-  background-image: url(images/campanile.jpg);
+  background-image: url(images/image2.png);
   min-height: 240px;
   margin-bottom: 50px;
   position: relative;
@@ -56,6 +47,7 @@ body, html {
 
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
+  min-width: 50rem;
   padding-top: 3rem;
   padding-bottom: 3rem; /* background-color: #f7f7f7;*/
 }
@@ -71,8 +63,7 @@ body, html {
 .card > img {
   margin-bottom: .75rem;
   display: block;
-  object-fit: cover;
-  // Center crop image
+  object-fit: cover; // Center crop image
   max-width: 356px;
   max-height: 280px;
   width: auto;

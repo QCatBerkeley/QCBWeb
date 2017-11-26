@@ -8,7 +8,10 @@ body, html {
 }
 
 .navbar.navbar-toggleable-md.navbar-light.bg-faded {
-	background-color: black;
+	background-color: transparent;
+  	background: transparent;
+  	border-color: transparent;
+  	color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -16,16 +19,11 @@ body, html {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: yellow;
-}
-
-.navbar-toggleable-md {
-	opacity: 1;
+	color: gray;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
 	position: relative;
-	opacity: 0.65;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -41,8 +39,7 @@ img {
 }
 
 .bgimg-1 {
-
-	/*background-image: url('https://mspoweruser.com/wp-content/uploads/2016/11/quantum-computing.jpg');*/
+	background-image: url(images/image.png);
 	min-height: 100%;
 }
 
@@ -62,13 +59,13 @@ h3, p {
 
 .bgimg-2 {
 
-	/*background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");*/
+	background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");
 	min-height: 400px;
 }
 
 .bgimg-3 {
 
-	/*background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");*/
+	background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");
 	min-height: 400px;
 }
 
@@ -78,20 +75,14 @@ h3, p {
 	top: 30%;
 	width: 100%;
 	text-align: center;
-	color: #000;
-}
-
-.caption {
-
-	/*background-color: #111;*/
-	color: black;
+	color: white;
 	padding: 18px;
 	font-size: 20px;
 	letter-spacing: 4px;
+	font-family: 'Lato', sans-serif;
 }
 
 .header-text h3 {
-	color: black;
 	font-size: 85px;
 	letter-spacing: 10px;
 }
