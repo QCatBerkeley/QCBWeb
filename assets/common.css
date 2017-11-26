@@ -1,0 +1,46 @@
+
+/* CSS FILE FOR COMMON ELEMENTS */
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: gray;
+}
+
+.navbar-brand > img {
+  display: block;
+  max-width: 150px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+.footer {
+	position: relative;
+}
+
+.footer > .row {
+	color: #ddd;
+	background-color: #282E34;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+.col-sm-4 {
+	text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width:1024px) {
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+		background-attachment: scroll;
+	}
+
+}

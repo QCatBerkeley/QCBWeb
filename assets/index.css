@@ -7,35 +7,12 @@ body, html {
 	overflow-x: hidden;
 }
 
-.navbar.navbar-toggleable-md.navbar-light.bg-faded {
-	background-color: transparent;
-  	background: transparent;
-  	border-color: transparent;
-  	color: white;
-}
-
-.navbar-light .navbar-nav .nav-link {
-	color: white;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-	color: gray;
-}
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-img {
-	display: block;
-	max-width: 100px;
-	max-height: 43px;
-	width: auto;
-	height: auto;
 }
 
 .bgimg-1 {
@@ -58,13 +35,11 @@ h3, p {
 }
 
 .bgimg-2 {
-
 	background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");
 	min-height: 400px;
 }
 
 .bgimg-3 {
-
 	background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");
 	min-height: 400px;
 }
@@ -85,27 +60,4 @@ h3, p {
 .header-text h3 {
 	font-size: 85px;
 	letter-spacing: 10px;
-}
-
-.footer {
-	position: relative;
-}
-
-.row {
-	color: #ddd;
-	background-color: #282E34;
-	padding: 50px 80px;
-	text-align: justify;
-}
-
-.col-sm-4 {
-	text-align: center;
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width:1024px) {
-	.bgimg-1, .bgimg-2, .bgimg-3 {
-		background-attachment: scroll;
-	}
-
 }
