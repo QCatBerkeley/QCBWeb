@@ -14,6 +14,13 @@
   color: gray;
 }
 
+.photo-credits {
+  color: white;
+  font-size: 10px; 
+  position: absolute; 
+  bottom: 0; right: 0
+}
+
 .navbar-brand > img {
   display: block;
   max-width: 150px;
@@ -36,6 +43,8 @@
 .col-sm-4 {
 	text-align: center;
 }
+
+
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width:1024px) {

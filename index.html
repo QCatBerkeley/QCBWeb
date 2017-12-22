@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>Home | QC@B</title>
+		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<!-- Social link CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Custom styles -->
 		<link href="assets/index.css" rel="stylesheet">
 		<link href="assets/common.css" rel="stylesheet">
-		<title>Home | QC@B</title>
 	</head>
 	<body>
 		<!--BODY OF THE WEBSITE + FIRST PARALLAX -->
 		<div class="bgimg-1">
+			<span class="photo-credits">Credit: UCB Digital Gallery</span>
+			<!-- NAVBAR -->
 			<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -58,7 +58,10 @@
 		<div class="footer">
 			<div class="row">
 				<div class="col-sm-4">Quantum Computing @ Berkeley</div>
-				<div class="col-sm-4">&copy;2017 QCB - All Rights Reserved</div>
+				<div class="col-sm-4">
+					&copy;2017 QCB - All Rights Reserved <br>
+					<span data-toggle="tooltip" title="We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site." style="text-decoration: underline;">University Disclaimer</span>
+				</div>
 				<div class="col-sm-4">
 					<a href="https://www.facebook.com/QuantumComputingBerkeley/">
 						<i class="fa fa-facebook-official" style="font-size:24px;color:white; margin-left: 5px; margin-right: 5px"></i>
@@ -73,6 +76,16 @@
 				</div>
 			</div>
 		</div>
+		<!-- Bootstrap core JavaScript ================================================== -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
 	</body>
 	
 </body>
