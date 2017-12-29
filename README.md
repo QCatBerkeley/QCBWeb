@@ -1,5 +1,8 @@
-# qcb_web
-Everything related to the Quantum Computing at Berkeley Web development can be found here. 
+<img src="https://raw.githubusercontent.com/daniellengyel/qcb_web/master/assets/images/logo_black.png" height="200">
+
+---
+
+#### Everything related to the Quantum Computing at Berkeley Web development can be found here. 
 
 **To Implement**:
 - ~Logo~
