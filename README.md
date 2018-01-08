@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/daniellengyel/qcb_web/master/assets/images/logo_black.png" height="200">
+<img src="https://raw.githubusercontent.com/daniellengyel/qcb_web/master/images/logo_black.png" height="200">
 
 ---
 
