@@ -8,7 +8,7 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url(images/image2.png);
+  background-image: url(../images/image2.png);
   min-height: 240px;
   margin-bottom: 50px;
   position: relative;
@@ -21,7 +21,7 @@ body, html {
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   min-width: 50rem;
-  padding-top: 3rem;
+/*padding-top: 3rem;*/
   padding-bottom: 3rem; /* background-color: #f7f7f7;*/
 }
 
