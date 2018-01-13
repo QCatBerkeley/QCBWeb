@@ -20,11 +20,9 @@ body, html {
 
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
-  min-width: 50rem;
-/*padding-top: 3rem;*/
+  min-width: 50rem;/*padding-top: 3rem;*/
   padding-bottom: 3rem; /* background-color: #f7f7f7;*/
 }
-
 
 .card {
   float: left;
@@ -38,7 +36,7 @@ body, html {
   margin-bottom: .75rem;
   display: block;
   object-fit: cover;
-  // Center crop image
+  /*Center crop image*/
   max-width: 356px;
   max-height: 280px;
   width: auto;
