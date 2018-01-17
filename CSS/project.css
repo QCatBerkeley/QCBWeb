@@ -3,8 +3,11 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   max-width: 100%;
-  overflow-x: hidden;
   color: #5a5a5a;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 .bgimg-2 {
