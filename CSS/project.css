@@ -6,9 +6,9 @@ body, html {
   color: #5a5a5a;
 }
 
-body{
+/*body{
   overflow-x: hidden;
-}
+}*/
 
 .bgimg-2 {
   background-image: url(../images/image2.png);
