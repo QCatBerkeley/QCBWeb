@@ -10,7 +10,7 @@ body, html {
   overflow-x: hidden;
 }*/
 
-.bgimg-2 {
+/*.bgimg-2 {
   background-image: url(../images/image2.png);
   min-height: 240px;
   margin-bottom: 50px;
@@ -19,6 +19,21 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}*/
+
+.col-md-5 {
+  background-color: #1E1E1E;
+  width: 475px;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.featurette-image {
+  object-fit: cover;
+  margin: 0;
 }
 
 .order-md-2 {

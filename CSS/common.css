@@ -1,6 +1,6 @@
 /* CSS FILE FOR COMMON ELEMENTS */
 .navbar.navbar-toggleable-md.navbar-light.bg-faded {
-background-color: transparent;
+  background-color: transparent;
   background: transparent;
   border-color: transparent;
 }
@@ -13,13 +13,12 @@ background-color: transparent;
   color: gray;
 }
 
-.photo-credits {
+/*.photo-credits {
   color: white;
   font-size: 10px; 
   position: absolute; 
   bottom: 0; right: 0
-}
-
+}*/
 .navbar-brand > img {
   display: block;
   max-width: 150px;
@@ -28,34 +27,42 @@ background-color: transparent;
   height: auto;
 }
 
+.bgimg-2 {
+
+  /*background-image: url(../images/image2.png);*/
+  background-color: #1E1E1E;
+  min-height: 135px;
+  margin-bottom: 50px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .footer {
-	position: relative;
-  /*overflow-x: hidden;*/
- 
+  position: relative;  /*overflow-x: hidden;*/
   width: 100%;
 }
 
 .footer > .row {
-	color: #ddd;
-	background-color: #282E34;
-	padding: 50px 80px;
-	text-align: justify;
+  color: #ddd;
+  background-color: #282E34;
+  padding: 50px 80px;
+  text-align: justify;
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  /*min-width:100%;*/
+  margin-right: auto;  /*min-width:100%;*/
 }
 
 .col-sm-4 {
-	text-align: center;
+  text-align: center;
 }
-
-
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width:1024px) {
-	.bgimg-1, .bgimg-2, .bgimg-3 {
-		background-attachment: scroll;
-	}
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
 
 }

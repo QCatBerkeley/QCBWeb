@@ -3,55 +3,54 @@ body, html {
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #777;	/*"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-	max-width: 100%;
-	/*overflow-x: hidden;*/
+	max-width: 100%;	/*overflow-x: hidden;*/
 }
 
 /*body {
 	overflow-x: hidden;
 }*/
-
 .bgimg-1, .bgimg-2, .bgimg-3 {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-   	position: relative;
+	position: relative;
 }
 
 .bgimg-1 {
-	background-image: url(../images/image.png);
+
+	/*background-image: url(../images/image.png);*/
+	background-color: #1E1E1E;
 	min-height: 100%;
 }
 
 .About-Us {
 	color: #777;
 	position: relative;
-	background-color: black;
+	background-color: white;
 	text-align: center;
-	padding: 50px 80px;
-	/*text-align: justify;*/
+	padding: 50px 80px;	/*text-align: justify;*/
+	min-height: 100%
 }
 
-h3, p {
+.About-Us h3, p {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
-.bgimg-2 {
-	background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");
-	min-height: 50%;
+/*.bgimg-2 {
+background-image: url("https://cdn.nanalyze.com/uploads/2016/01/Quantum-Computing-Companies-Teaser.jpeg");
+min-height: 50%;
 }
 
 .bgimg-3 {
-	background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");
-	min-height: 400px;
-}
-
+background-image: url("https://static1.squarespace.com/static/5254683be4b0dd64d4afd300/t/56719f961115e02bda9e97e3/1442853903779/shutterstock_149651078.jpg?format=2500w");
+min-height: 400px;
+}*/
 .caption {
 	position: absolute;
 	left: 0;
-	top: 30%;
+	top: 20%;
 	width: 100%;
 	text-align: center;
 	color: white;

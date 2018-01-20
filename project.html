@@ -13,8 +13,6 @@
 		<link href="CSS/project.css" rel="stylesheet">
 		<link href="CSS/common.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
 		<!-- Bootstrap core JavaScript -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -26,20 +24,18 @@
 			$('[data-toggle="tooltip"]').tooltip();
 		});
 		</script>
-
 	</head>
 	<body>
 		<main role="main">
 			<!-- Parallax Image -->
 			<div class="bgimg-2">
-				<span class="photo-credits">Credit: UCB Digital Gallery</span>
 				<!-- NAVBAR -->
 				<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
 					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 					</button>
 					<a class="navbar-brand" href="index.html">
-						<img class = "logo" src="images/logo.png">
+						<img class = "logo" src="images/logo.png" style="opacity: 0;">
 					</a>
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -56,38 +52,39 @@
 						</li>
 					</ul>
 				</nav>
+				<img class = "logo" src="images/logo.png" style=" position: absolute; padding-top: 1.25rem; padding-bottom: 1.25rem; padding-left: 0.5rem; top:0; left:0;width: 200px">
 			</div>
 			
 			<div class="container marketing">
 				<div class="row featurette">
 					<div class="col-md-7">
-						<h2 class="featurette-heading">Project 1 <!-- <span class="text-muted">It'll blow your mind.</span> --> </h2>
-						<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<h2 class="featurette-heading">Qubit Project <!-- <span class="text-muted">It'll blow your mind.</span> --> </h2>
+						<p class="lead">The qubit project aims to construct simulations of low-qubit quantum computers on classical computers. This is accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal is to implement both Shor's and Grover's algorithms on the resulting, simulated quantum computer</p>
 					</div>
 					<div class="col-md-5">
-						<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+						<img class="featurette-image img-fluid mx-auto" src="images/project1.png" alt="Generic placeholder image">
 					</div>
 				</div>
 				<hr class="featurette-divider">
 				<div class="row featurette">
 					<div class="col-md-7 order-md-2">
-						<h2 class="featurette-heading">Project 2 <!-- <span class="text-muted">See for yourself.</span> --></h2>
+						<h2 class="featurette-heading">Project 2</h2>
 						<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 					</div>
 					<div class="col-md-5 order-md-1">
 						<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 					</div>
 				</div>
-				<hr class="featurette-divider">
+				<!-- <hr class="featurette-divider">
 				<div class="row featurette">
-					<div class="col-md-7">
-						<h2 class="featurette-heading">Project 3<!-- <span class="text-muted">Checkmate.</span> --></h2>
-						<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-					</div>
-					<div class="col-md-5">
-						<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-					</div>
-				</div>
+								<div class="col-md-7">
+												<h2 class="featurette-heading">Project 3</h2>
+												<p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								</div>
+								<div class="col-md-5">
+												<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+								</div>
+				</div> -->
 			</div>
 		</main>
 		<!-- FOOTER -->
