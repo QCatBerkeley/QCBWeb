@@ -20,6 +20,13 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }*/
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
 
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */

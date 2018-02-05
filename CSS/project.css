@@ -21,6 +21,32 @@ body, html {
   background-size: cover;
 }*/
 
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 120%;
+  width: auto;
+}
+
+/*#qcb_logo{
+  position: absolute; 
+  padding-top: 1.25rem; 
+  padding-bottom: 1.25rem; 
+  padding-left: 0.5rem; 
+  top:0; 
+  left:0;
+  width: 200px;
+}
+
+@media only screen and (max-device-width:480px){
+  #qcb_logo{
+    width: 100px; 
+  }
+    
+}*/
+
 .col-md-5 {
   background-color: #1E1E1E;
   width: 475px;
