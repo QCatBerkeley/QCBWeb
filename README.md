@@ -4,6 +4,8 @@
 
 #### Everything related to the Quantum Computing at Berkeley Web development can be found here. 
 
+website -> https://qcb.berkeley.edu
+
 **To Implement**:
 - ~Logo~
 - ~banner image (or animation - Ask Noah)~
