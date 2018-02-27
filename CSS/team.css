@@ -28,57 +28,33 @@ body, html {
   width: auto;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  }
-
-
-@media screen and  (max-device-width:500px) {
-  .flex-container{
-    flex-direction: column !important;
-  }
+.row {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
-/*
-.album {
-  min-height: 50rem; /* Can be removed; just added for demo purposes 
-  min-width: 50rem;/*padding-top: 3rem;
-  padding-bottom: 3rem; /* background-color: #f7f7f7;
-}*/
 
-.card {
-  float: left;
-  width: 33.333%;
-  min-width: 210px;
+.col-lg-4.col-sm-6.text-center {
   padding: .75rem;
   margin-bottom: 2rem;
-  border: 0;
 }
 
-.card > img {
+.rounded.img-fluid {
   margin-bottom: .75rem;
-  display: block;
   object-fit: cover;
-  // Center crop image
-  max-width: 356px;
-  max-height: 280px;
-  width: auto;
-  height: auto;
+  height: 280px;
+  width: 450px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.card:hover .image {
+/*.card:hover .image {
   opacity: 0.3;
 }
 
 .card:hover .middle {
   opacity: 1;
-}
+}*/
 
 .card-text {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
