@@ -7,13 +7,7 @@
 website -> https://qcb.berkeley.edu
 
 **To Implement**:
-- ~Logo~
-- ~banner image (or animation - Ask Noah)~
-- ~Projects Page~
-- ~Team Page~
-- ~Contact details (email, social links etc...)~
+- Add more projects 
 - Finalize mission statement
 - Color scheme
 - Change typeface?
-- About Us Page
-- Join Us (google doc?)
