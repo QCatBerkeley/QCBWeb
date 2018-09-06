@@ -50,3 +50,14 @@ function draw() {
 }
 window.onload = window.requestAnimationFrame(draw);
 var step = -2;
+
+
+
+// Smooth scroll to link given hash
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+     }, 500);
+});
