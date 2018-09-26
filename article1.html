@@ -81,31 +81,56 @@
             <div class="row featurette" style="padding-bottom: 20px">
                 <div class="col-md-12">
                     <p class="lead">
-                        Ever since the time of Turing, computer science has revolutionised the world, touching almost all aspects of daily life. For this reason, the classical bit occupies a position as one of the most fundamental advances in history. However, while this has led to drastic advances in many areas, there remain key problems that current computers do not have much to say about. The most famous example of these is the deceptively innocuous problem of breaking a number into its prime factors, which is actually extremely difficult to do efficiently with a computer. However, efficient solutions for such problems are easily doable on a quantum computer.
-                        <br>
-                        <br> Quantum computing is a dynamic area at the intersection of physics and computer science that reformulates computation via the deeply powerful and profoundly counterintuitive ideas of quantum mechanics. Using quantum mechanics as the basis for computing results in a huge expansion in the number of problems that we can solve efficiently. While there are many critical quantum ideas that are behind this, any discussion on quantum computing must talk about superposition. Let us consider a simple system which can be in either state A or B. What the superposition principle says is that in addition to being in A or B, the system could be in a combination (superposition) of A and B at the same time. Let's bring this abstract definition a bit more to life with the example of a coin, which has the states heads and tails as expected. If we used quantum mechanics to describe a coin, we are saying that there is also an infinity of states which is both heads and tails at the same time but with different amount of heads and different amount of tails. An elementary extension of this idea is the quantum bit or qubit. Whereas a classical bit is either 0 or 1, a quantum bit can have a certain amount of 1 and a certain amount of 0 at the same time.
+                        Computers have revolutionized our world, touching almost every aspect of our daily lives. For this reason, the classical bit - the surprisingly powerful idea of storing information as either a 1 or 0 - occupies a position as one of the most fundamental advances in history. The fascinating realm of computer history is well worth diving into, as many have: the expansive <a target="_blank" href="http://www.computerhistory.org/">Computer History Museum</a> in Palo Alto, CA is a must-visit for enthusiasts, and Walter Isaacson's <a target="_blank" href="https://www.amazon.com/Innovators-Hackers-Geniuses-Created-Revolution/dp/1476708703">The Innovators</a> is a fantastic chronicle of the journey to modern computing. As transformative their effects have been, there are still key problems that current computers simply can't tackle. Computer security experts will be familiar with the problem of finding the prime factors of very large numbers - the fact that classical computers can't do this efficiently is the basis for encryption. However, there are efficient algorithms for solving this and many other important problems using a <i>quantum computer </i>.
                         <br>
                     </p>
                     <figure>
-                        <img src="images/bit_vs_Qbit.png" style="max-height:50%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
-                        <figcaption style="margin-left: 10%;margin-right: 10%;text-align: center;">Illustration of the difference between a classical bit and a qubit.</figcaption>
+                        <img src="images/articles/article1_1.png" style="max-height:50%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
                     </figure>
                     <p class="lead">
-                        <br> To begin to understand why superposition brings real advantages, we have to get a tiny bit technical. Suppose we had a computer powered by just 2 bits. The possible states 00, 01, 10, 11 and each bit is completely independent of the other. This means that to change the state, we have to do up to 2 operations potentially. Now consider a computer with 2 qubits. The possible states are still 00, 01, 10, and 11 but now we can have states like 00 + 01 also. The trick however is that superposition (and another effect called entanglement which we will talk about later) link the separate qubits so that they aren't independent anymore. Essentially, the quantum state encodes information about every qubit at once, so instead of having to change both qubits separately (which in many cases we cannot even do) we simply apply one operation to the combined 2 qubit state. So we have essentially gone from 2 operations to 1, which doesn't really sound that impressive but consider replacing a classic 64-bit computer with a 64-qubit computer. This computer has 264 - 18,446,744,073,709,551,616 - bytes. While a classic computer can require up to more than 18 quintillion operations, a quantum computer can act on all qubits with 1 operation. This ability to use all qubits as one is the key as it allows multiple qubits to interact with each other, with the net result being a process where the processes that lead to the solution we want reinforce each other while other bad solutions tend to cancel each other out.
-                        <br>
-                        <br> What does all this quantum weirdness buy us? Algorithms that could not only factor numbers efficiently but also break the RSA encryption that protects a vast proportion of modern communications. Artificial Intelligence that is enhanced by access to the infinity of quantum states that Nature provides access to at the microscopic level. These are only two of the many possible advances following a shift to quantum computing.
-                        <br>
-                        <br> However, quantum computing is still a young field and faces some major challenges. Chief among these is building an actual quantum computer on a real scale. Quantum states are incredibly fragile and the slightest interaction with the environment will break them. The result is that qubits will become classical bits and all the extra states will disappear - a phenomenon known as wavefunction collapse. Moreover, quantum gates (the analogues of classical gates such as and/or/xor) are more intricate to design since quantum effects must be considered. Currently Google leads the world with the 72 qubit <a target="_blank" href = "https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html"> Bristlecone computer </a> released in April 2018.
+                        <br> Quantum computing is a dynamic area at the intersection of physics and computer science. For an excellent introduction to the ideas of quantum computing, take the time to watch <a target="_blank" href="https://youtu.be/S52rxZG-zi0"> this talk by IBM's Dr. Talia Gershon</a>. Most fundamentally, quantum information reformulates computation by allowing storage not in bits of merely a 1 or 0, but as qubits in superposition of 1 and 0. This almost certainly seems counterintuitive, and it is! Physicists have been arguing about the implications of quantum mechanics for decades. Exactly what is a <i>superposition</i>? After all, if you actually measure the qubit, you don't get back both 1 and 0 - half the time you will get a 1, and the other half you'll measure a 0. In physics, this is referred to as "collapsing the wavefunction". You might think, as some physicists have, that actually the qubit was a 1 or 0 the whole time; you just didn't know which until you measured it. Or perhaps more exotically, that every time you measured a 1, another parallel universe where you measured a 0 split off from this one! Although this theory sounds like science fiction, Caltech physicist <a target="_blank" href="http://www.preposterousuniverse.com/blog/2014/06/30/why-the-many-worlds-formulation-of-quantum-mechanics-is-probably-correct/"> Sean Carrol shared this blog post</a> about why he considers the Many-worlds Interpretation the most likely one. The philosophical implications are of course ripe for exploration (<a target="_blank" href="https://plato.stanford.edu/entries/qm-manyworlds/">this Stanford Philosophy article written by a physicist is a personal favorite</a>), but for the rest of our discussion, we'll talk about superposition as a special state where we can't predict the outcome of measurement, only the probability.
                         <br>
                     </p>
                     <figure>
-                        <img src="images/google_bristlecone.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
+                        <img src="images/articles/article1_2.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
+                    </figure>
+                    <p class="lead">
+                        <br> To begin to understand why superposition brings real advantages, we'll need to jump into the "spooky" world of entanglement. In quantum mechanics, it's possible to link separate qubits so that they aren't independent anymore. In the case of the <a target="_blank" href="https://en.wikipedia.org/wiki/Controlled_NOT_gate">"Controlled-NOT"</a> operation, we entangle two qubits so that if you measure a 1 on the first qubit, the second one will "flip" (0 &#8594; 1 or 1 &#8594; 0). This may not seem very impressive, but it turns out to be quite powerful. We'll need to get a bit technical here, but reading things multiple times is a large part of physics!
+                        <br>
+                    </p>
+                    <figure>
+                        <img src="images/articles/article1_3.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
+                    </figure>
+                    <p class="lead">
+                        <br> Suppose we had a classical computer powered by just 2 bits. Each bit can be either one or zero, so we could have them both being the same (00 or 11) or them being different from one another (01 or 10). Remember, in a classical computer, each bit is completely independent of the others - no entanglement. Let's say we are doing a computation, and we want to change 00 into 11. How many steps does this take? We need to take the first 0 &#8594; 1, and the second 0 &#8594; 1, so two operations in total. Now let's return to our entangled qubits! If we want to change the quantum state, I only need to do one operation: change the first qubit. Let's see how this would play out:
+                        <br>
+                    </p>
+                    <ol>
+                        <li>Start with the qubits in the 00 state</li>
+                        <li>Change the first qubit from 0 &#8594; 1</li>
+                        <li>Immediately, the second qubit sees that the first qubit is now a 1, so it has to <i>flip</i> from 0 &#8594; 1</li>
+                        <li>Now the qubits are in the state 11</li>
+                    </ol>
+                    <p class="lead">
+                        <br> We have essentially gone from 2 operations to 1, which doesn't really sound that impressive, but in fact, we could entangle an <i> entire quantum computer</i>. A classic 64-bit computer has 264 - 18,446,744,073,709,551,616 - bytes. While a classic computer can require up to more than 18 quintillion operations, a quantum computer can act on all qubits with 1 operation. This parallelism lies at the heart of the quantum speedup.
+                        <br>
+                    </p>
+                    <figure>
+                        <img src="images/articles/article1_4.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
+                    </figure>
+                    <p class="lead">
+                        <br> What does all this quantum weirdness buy us? In addition to breaking <a target="_blank" href="https://www.pagedon.com/rsa-explained-simply/programming"> RSA encryption</a>, this extra computational power would also allow us to <a target="_blank" href="https://cen.acs.org/articles/95/i43/Chemistry-quantum-computings-killer-app.html"> probe into the realm of chemistry</a>, where limited computational power means that chemists must use many approximations to simulate even the simplest of molecules. Quantum computers would give us the ability to create new drugs and test exactly how they would interact with living tissues. There are also applications to <a target="_blank" href="https://arxiv.org/pdf/1408.7005.pdf"> AI</a>, <a target="_blank" href="https://medium.com/swlh/how-quantum-computers-would-be-able-to-process-all-of-wall-street-financial-models-at-once-a7d536469d16"> financial modeling</a>, and even <a target="_blank" href="https://phys.org/news/2016-06-particle-zoo-quantum-experimental-simulation.html"> particle physics</a>.
+                        <br>
+                        <br> All this is very exciting; however, quantum computing is still a young field and faces some major challenges. Chief among these is fault tolerance. Quantum states are incredibly fragile and the slightest interaction with the environment will break them. The result is that qubits will become classical bits and all the extra states will disappear. In addition, quantum gates (like the CNOT) do not always perfectly entangle, which leads to more errors.
+                        <br>
+                        <br> Scaling up in size while keeping your errors low is the major hurdle in building a practical quantum computer. Currently IBM leads the world with a 50 qubit computer, but others are jumping into quantum computing with gusto.<a target="_blank" href="https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html"> Google</a> is intensifying its efforts, and startups like <a target="_blank" href="https://www.rigetti.com/">Rigetti</a> and <a target="_blank" href="https://ionq.co/">IonQ</a> are also contributing significantly to the exciting ecosystem of quantum computing.
+                    </p>
+                    <figure>
+                        <img src="images/articles/article1_5.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
                         <figcaption style="margin-left: 10%;margin-right: 10%;text-align: center;">Bristlecone is Google's newest quantum processor (left). On the right is a cartoon of the device: each 'X' represents a qubit, with nearest neighbor connectivity. Credit: Google</figcaption>
                     </figure>
                     <p class="lead">
-                        <br> Others like IBM are intensifying their efforts and startups like Rigetti are also contributing significantly to creating an exciting ecosystem in the quantum computing space.
-                        <br>
-                        <br> Due to its young age and potentially revolutionary impact, quantum computing is one of the most dynamic and exciting fields today. Just as we learned to harness the bit, it seems virtually inevitable that we will harness its more exotic relative the qubit, which promises to bring about a computational transformation at least as profound as its venerable predecessor.
+                        <br> Note that we haven't actually discussed how to actually build a quantum computer, and there are many different approaches! Superconducting qubits, ion traps, linear optical quantum computing, topological quantum computing, and more! Over the next few months, we'll be creating posts about each of these schemes, as well as information about events in the quantum computing industry. Lastly, we strongly encourage discussion, so please post any questions you might have about quantum computing in the comments below!
                     </p>
                 </div>
             </div>
@@ -115,8 +140,9 @@
     <div class="footer">
         <div class="row">
             <div class="col-sm-4">
-            Quantum Computing @ Berkeley <br>
-            <a href="https://www.ocf.berkeley.edu">
+                Quantum Computing @ Berkeley
+                <br>
+                <a href="https://www.ocf.berkeley.edu">
                 <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
                 alt="Hosted by the OCF" style="width:100px; margin-top:5px;margin-left: 5px; margin-right: 5px" />
             </a>
@@ -127,7 +153,8 @@
                 <span data-toggle="tooltip" title="We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site." style="text-decoration: underline;">University Disclaimer</span>
             </div>
             <div class="col-sm-4">
-                2495 Bancroft Ext, Berkeley, CA 94720 <br>
+                2495 Bancroft Ext, Berkeley, CA 94720
+                <br>
                 <a target="_blank" href="https://www.facebook.com/qcberkeley/">
                     <i class="fa fa-facebook-official" style="font-size:24px;color:white;margin-top: 5px;margin-left: 5px;margin-right: 5px;"></i>
                 </a>
