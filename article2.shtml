@@ -43,40 +43,7 @@
             <!-- Parallax Image -->
             <div class="bgimg-2">
                 <!-- NAVBAR -->
-                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand navbar-left" href="index.shtml">
-                        <img class = "logo" src="images/logo.png">
-                    </a>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.shtml">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="team.shtml">Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="project.shtml">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="decal.shtml">Decal</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Articles</a>
-                                <div class="dropdown-menu">
-                                    <a class="nav-link" style="color: #5a5a5a;" href="article1.shtml">What is Quantum Computing?</a>
-                                    <a class="nav-link" style="color: #5a5a5a;" href="article2.shtml">Quantum Complexity</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://bit.ly/2G4GBLF">Join Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                <!--#include file="footer.shtml" -->
             </div>
             <div class="container marketing">
                 <div class="row featurette">
