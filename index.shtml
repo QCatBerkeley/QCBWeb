@@ -88,33 +88,6 @@
             <p class="lead" style="text-align: justify;">Quantum computing has been growing at a rapid pace in the last few years, with hundreds of millions in venture capital funding to startups like Rigetti, and large scale R&D in companies like Google, IBM, Intel, Microsoft, and many more. On campus alone, we have the Vazirani group, the Whaley Group, the Siddiqi group, the Haeffner group and many more researchers working towards different ways of building quantum algorithms and quantum hardware. We're an undergraduate run club on campus that aims to bridge the gap between students, industry and academia in Quantum Computing. Our goal is to spread awareness of Quantum Computing and bring more people into a field in need of more researchers and engineers. We also aim to educate the general campus population on the developments in the field and how the field is going to change our world. We organize talks, hands on workshops and projects, infosessions, panel discussions, lab tours, company visits, and many more events. We are also teaching the Intro to Quantum Computing DeCal in Fall 2018.</p>
         </div>
         <!-- FOOTER -->
-        <div class="footer">
-            <div class="row">
-                <div class="col-sm-4">
-                    Quantum Computing @ Berkeley <br>
-                    2495 Bancroft Ext, Berkeley, CA 94720
-                </div>
-                <div class="col-sm-4">
-                    &copy; 2019 QCB - All Rights Reserved
-                    <br>
-                    <span data-toggle="tooltip" title="We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site." style="text-decoration: underline;">University Disclaimer</span>
-                </div>
-                <div class="col-sm-4">
-                    <a href="https://www.ocf.berkeley.edu">
-                        <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin-dark.svg"
-                        alt="Hosted by the OCF" style="width:100px; margin-top:5px;margin-left: 5px; margin-right: 5px" />
-                    </a>
-                    <a target="_blank" href="https://www.facebook.com/qcberkeley/">
-                        <i class="fab fa-facebook-square" style="font-size:24px;color:white;margin-top: 5px;margin-left: 5px;margin-right: 5px;"></i>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/qcberkeley/">
-                        <i class="fab fa-linkedin" style="font-size:24px;color:white;margin-top: 5px;margin-left: 5px;margin-right: 5px;"></i>
-                    </a>
-                    <a href="mailto:qc@berkeley.edu" target="_top">
-                        <i class="fas fa-envelope-square" style="font-size:24px;color:white;margin-top: 5px;margin-left: 5px;margin-right: 5px;"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <!--#include file="footer.shtml" -->
     </body>
 </html>
