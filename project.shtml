@@ -34,42 +34,39 @@
                 <!--#include file="navbar.shtml" -->
             </div>
             <div class="container marketing">
-
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Partial Quantum Search: Spring '19</h2>
                         <p class="lead">This semester, we will be implementing a variation of Grover’s canonical search algorithm, known as partial quantum search, in pyquil, a Python quantum computing library.
-                        CS 191, the Quantum Computing DeCal, or equivalent, is recommended for this project. <br> <a href = "https://arxiv.org/abs/quant-ph/0407122" target="_blank"> Link to the paper</a>. <br> Sign up if interested <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdFrf8omAE8v5zJ6cQWRpCAf6QXpwt27cDJtxpHQyGgc8vwiw/viewform" target="_blank"> here</a>.</p>
+                            CS 191, the Quantum Computing DeCal, or equivalent, is recommended for this project. <br> <a href = "https://arxiv.org/abs/quant-ph/0407122" target="_blank"> Link to the paper</a>. <br> Sign up if interested <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdFrf8omAE8v5zJ6cQWRpCAf6QXpwt27cDJtxpHQyGgc8vwiw/viewform" target="_blank"> here</a>.</p>
+                        </div>
+                        <div class="col-md-5" style="background-color: #fff">
+                            <img class="featurette-image img-fluid mx-auto" src="images/project2.png" alt="Generic placeholder image" style="padding-top: 139px;padding-bottom: 139px; border:1px solid #021a40;">
+                        </div>
                     </div>
-                    <div class="col-md-5" style="background-color: #fff">
-                        <img class="featurette-image img-fluid mx-auto" src="images/project2.png" alt="Generic placeholder image" style="padding-top: 139px;padding-bottom: 139px; border:1px solid #021a40;">
+                    <hr class="featurette-divider">
+                    <div class="row featurette" style="padding-bottom: 20px">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">Qubit Project</h2>
+                            <p class="lead">The qubit project aims to construct simulations of low-qubit quantum computers on classical computers. This is accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal is to implement both Shor's and Grover's algorithms on the resulting, simulated quantum computer.</p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <img class="featurette-image img-fluid mx-auto" src="images/project1.png" alt="Generic placeholder image">
+                        </div>
                     </div>
+                    <!-- <hr class="featurette-divider">
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">Project 3</h2>
+                            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                        </div>
+                    </div> -->
                 </div>
-
-                <hr class="featurette-divider">
-
-                <div class="row featurette" style="padding-bottom: 20px">
-                    <div class="col-md-7 order-md-2">
-                        <h2 class="featurette-heading">Qubit Project</h2>
-                        <p class="lead">The qubit project aims to construct simulations of low-qubit quantum computers on classical computers. This is accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal is to implement both Shor's and Grover's algorithms on the resulting, simulated quantum computer.</p>
-                    </div>
-                    <div class="col-md-5 order-md-1">
-                        <img class="featurette-image img-fluid mx-auto" src="images/project1.png" alt="Generic placeholder image">
-                    </div>
-                </div>
-                <!-- <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7">
-                        <h2 class="featurette-heading">Project 3</h2>
-                        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    </div>
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-                    </div>
-                </div> -->
-            </div>
-        </main>
-        <!-- FOOTER -->
-        <!--#include file="footer.shtml" -->
-    </body>
-</html>
+            </main>
+            <!-- FOOTER -->
+            <!--#include file="footer.shtml" -->
+        </body>
+    </html>
