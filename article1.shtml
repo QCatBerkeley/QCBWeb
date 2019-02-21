@@ -47,28 +47,28 @@
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand navbar-left" href="index.html">
+                    <a class="navbar-brand navbar-left" href="index.shtml">
                         <img class = "logo" src="images/logo.png">
                     </a>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="index.shtml">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="team.html">Team</a>
+                                <a class="nav-link" href="team.shtml">Team</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="project.html">Projects</a>
+                                <a class="nav-link" href="project.shtml">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="decal.html">Decal</a>
+                                <a class="nav-link" href="decal.shtml">Decal</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Articles</a>
                                 <div class="dropdown-menu">
-                                    <a class="nav-link" style="color: #5a5a5a;" href="article1.html">What is Quantum Computing?</a>
-                                    <a class="nav-link" style="color: #5a5a5a;" href="article2.html">Quantum Complexity</a>
+                                    <a class="nav-link" style="color: #5a5a5a;" href="article1.shtml">What is Quantum Computing?</a>
+                                    <a class="nav-link" style="color: #5a5a5a;" href="article2.shtml">Quantum Complexity</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -131,11 +131,11 @@
                             <img src="images/articles/article1_4.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
                         </figure>
                         <p class="lead">
-                            <br> What does all this quantum weirdness buy us? In addition to breaking <a target="_blank" href="https://www.youtube.com/watch?v=wUwZZaI5u0c"> RSA encryption</a>, this extra computational power would also allow us to <a target="_blank" href="https://cen.acs.org/articles/95/i43/Chemistry-quantum-computings-killer-app.html"> probe into the realm of chemistry</a>, where limited computational power means that chemists must use many approximations to simulate even the simplest of molecules. Quantum computers would give us the ability to create new drugs and test exactly how they would interact with living tissues. There are also applications to <a target="_blank" href="https://arxiv.org/pdf/1408.7005.pdf"> AI</a>, <a target="_blank" href="https://medium.com/swlh/how-quantum-computers-would-be-able-to-process-all-of-wall-street-financial-models-at-once-a7d536469d16"> financial modeling</a>, and even <a target="_blank" href="https://phys.org/news/2016-06-particle-zoo-quantum-experimental-simulation.html"> particle physics</a>.
+                            <br> What does all this quantum weirdness buy us? In addition to breaking <a target="_blank" href="https://www.youtube.com/watch?v=wUwZZaI5u0c"> RSA encryption</a>, this extra computational power would also allow us to <a target="_blank" href="https://cen.acs.org/articles/95/i43/Chemistry-quantum-computings-killer-app.shtml"> probe into the realm of chemistry</a>, where limited computational power means that chemists must use many approximations to simulate even the simplest of molecules. Quantum computers would give us the ability to create new drugs and test exactly how they would interact with living tissues. There are also applications to <a target="_blank" href="https://arxiv.org/pdf/1408.7005.pdf"> AI</a>, <a target="_blank" href="https://medium.com/swlh/how-quantum-computers-would-be-able-to-process-all-of-wall-street-financial-models-at-once-a7d536469d16"> financial modeling</a>, and even <a target="_blank" href="https://phys.org/news/2016-06-particle-zoo-quantum-experimental-simulation.shtml"> particle physics</a>.
                             <br>
                             <br> All this is very exciting; however, quantum computing is still a young field and faces some major challenges. Chief among these is fault tolerance. Quantum states are incredibly fragile and the slightest interaction with the environment will break them. The result is that qubits will become classical bits and all the extra states will disappear. In addition, quantum gates (like the CNOT) do not always perfectly entangle, which leads to more errors.
                             <br>
-                            <br> Scaling up in size while keeping your errors low is the major hurdle in building a practical quantum computer. Currently IBM leads the world with a 50 qubit computer, but others are jumping into quantum computing with gusto.<a target="_blank" href="https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.html"> Google</a> is intensifying its efforts, and startups like <a target="_blank" href="https://www.rigetti.com/">Rigetti</a> and <a target="_blank" href="https://ionq.co/">IonQ</a> are also contributing significantly to the exciting ecosystem of quantum computing.
+                            <br> Scaling up in size while keeping your errors low is the major hurdle in building a practical quantum computer. Currently IBM leads the world with a 50 qubit computer, but others are jumping into quantum computing with gusto.<a target="_blank" href="https://ai.googleblog.com/2018/03/a-preview-of-bristlecone-googles-new.shtml"> Google</a> is intensifying its efforts, and startups like <a target="_blank" href="https://www.rigetti.com/">Rigetti</a> and <a target="_blank" href="https://ionq.co/">IonQ</a> are also contributing significantly to the exciting ecosystem of quantum computing.
                         </p>
                         <figure>
                             <img src="images/articles/article1_5.png" style="max-height:50%;max-width: 100%;display: block;vertical-align: middle;margin-left: auto;margin-right: auto;">
@@ -146,7 +146,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="fb-comments" data-href="https://qcb.berkeley.edu/article1.html" data-width="800" data-numposts="5"></div>
+                <div class="fb-comments" data-href="https://qcb.berkeley.edu/article1.shtml" data-width="800" data-numposts="5"></div>
             </div>
         </main>
         <!-- FOOTER -->
