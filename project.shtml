@@ -31,7 +31,7 @@
             <!-- Parallax Image -->
             <div class="bgimg-2">
                 <!-- NAVBAR -->
-                <!--#include file="footer.shtml" -->
+                <!--#include file="navbar.shtml" -->
             </div>
             <div class="container marketing">
 
