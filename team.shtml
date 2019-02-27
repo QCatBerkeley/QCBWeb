@@ -132,6 +132,70 @@
                     <div class="text">About Me!</div>
                 </div>
             </div>
+
+            <!-- Officers -->
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="rounded img-fluid" src="images/ethan.jpg" alt="Card image cap">
+                <div class="card-text">
+                    <h5>Ethan Yeh</h5>
+                    <p>Officer</p>
+                    <span>Physics/Computer Science</span>
+                </div>
+                <div class="middle">
+                    <div class="text">About Me!</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="rounded img-fluid" src="images/glenn.jpg" alt="Card image cap">
+                <div class="card-text">
+                    <h5>Glenn LeBlanc</h5>
+                    <p>Officer</p>
+                    <span>Applied Math/Physics</span>
+                </div>
+                <div class="middle">
+                    <div class="text">About Me!</div>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-sm-6 text-center">
+                <img class="rounded img-fluid" src="images/joe.jpg" alt="Card image cap">
+                <div class="card-text">
+                    <h5>Amol Pant</h5>
+                    <p>Officer</p>
+                    <span>Computer Science</span>
+                </div>
+                <div class="middle">
+                    <div class="text">About Me!</div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="rounded img-fluid" src="images/joe.jpg" alt="Card image cap">
+                <div class="card-text">
+                    <h5>Michael Khachatrian</h5>
+                    <p>Officer</p>
+                    <span>Physics</span>
+                </div>
+                <div class="middle">
+                    <div class="text">About Me!</div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="rounded img-fluid" src="images/joe.jpg" alt="Card image cap">
+                <div class="card-text">
+                    <h5>Ashutosh Bhadouria</h5>
+                    <p>Officer</p>
+                    <span>Chemical Engineering</span>
+                </div>
+                <div class="middle">
+                    <div class="text">About Me!</div>
+                </div>
+            </div> -->
+            
         </div>
         <!-- FOOTER -->
         <!--#include file="footer.shtml" -->
