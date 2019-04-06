@@ -25,6 +25,7 @@
                     <a class="nav-link" style="color: #5a5a5a;" href="article1.shtml">What is Quantum Computing?</a>
                     <a class="nav-link" style="color: #5a5a5a;" href="article2.shtml">Quantum Complexity</a>
                     <a class="nav-link" style="color: #5a5a5a;" href="article3.shtml">BB84 Encryption Protocol</a>
+                    <a class="nav-link" style="color: #5a5a5a;" href="article4.shtml">The Fast Fourier Transform and its Quantum Analog</a>
                 </div>
             </li>
             <li class="nav-item">
