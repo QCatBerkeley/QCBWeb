@@ -39,40 +39,36 @@
                     </div>
                     <div class="col-md-3">
                         <p class="lead" style='margin:0rem; margin-top: 0.75rem;'>
-                            Fall 2018 - CS 198 (2 Units)
+                            Fall 2019 - CS 198 (2 Units)
                         </p>
                     </div>
                 </div>
                 <hr class="featurette-divider" style='margin-top:0rem; margin-bottom:2rem;'>
                 <div class="row featurette" style="padding-bottom: 20px">
                     <div class="col-md-12">
-                        <p class="lead">
-                            The decal is not offered this semester, please check out Physics 191!
-                        </p>
-                        <a class="btn btn-secondary" style="margin-bottom: 20px; opacity: 0.3;">Sign Up</a>
-                        <a class="btn btn-secondary" style="margin-bottom: 20px; opacity: 0.3;">Decal Page</a>
-                        <!-- <a class="btn btn-secondary" href="https://goo.gl/forms/UoDqJhA1MhVQDPNH2" target="_blank" role="button" style="margin-bottom: 20px;">Sign Up</a>
-                        <a class="btn btn-secondary" href="https://decal.berkeley.edu/courses/4564" target="_blank" role="button" style="margin-bottom: 20px;">Decal Page</a> -->
-                        <p class="lead" style="opacity: 0.3;">
-                            <b> Course Description</b>: An Introductory course to Quantum Computing. We will introduce ideas of qubits and quantum algorithms while also exploring topics in quantum information theory. Furthermore, we will teach students the state of the art and latest developments in the field. In order to gain an appreciation for the difficulty of developing Quantum Computers, we will plan tours of Quantum Labs and invite speakers to share their experiences.
+                        <a class="btn btn-secondary" href="https://forms.gle/YETGMJ51H5mQv1r57" target="_blank" role="button" style="margin-bottom: 20px;">Sign Up</a>
+                        <a class="btn btn-secondary" href="https://decal.berkeley.edu/courses/4564" target="_blank" role="button" style="margin-bottom: 20px;">Decal Page</a>
+                        <p class="lead" style="opacity: 1.0;">
+                            <b> Course Description</b>: An Introductory course to Quantum Computing. We will introduce ideas of qubits and quantum algorithms while also exploring topics in quantum information theory. Furthermore, we will teach students the state of the art and latest developments in the field. 
                             <br>
                             <br>
-                            <b> Facilitators</b>: Daniel Lengyel (daniel.lengyel@berkeley.edu) and Dhruv Devulapalli (ddhruv@berkeley.edu)
+                            <b> Facilitators</b>: Debayan Bandyopadhyay (debayanband@berkeley.edu), Ethan Yeh (ethan.yc.yeh@berkeley.edu), and Glenn LeBlanc (gleblanc@berkeley.edu) 
                             <br>
-                            <b> Time & Location</b>: Tuesdays and Thursday 6:30 to 8:00 pm in Wheeler 108
+                            <b> Time & Location</b>: Monday, Wednesday 6:30 to 8 pm, 310 Soda Hall
                             <br>
-                            <b> Starts</b>: August 30th, 2018
+                            <b> Starts</b>: September 9th, 2019
                             <br>
                             <br>
                             <b> Learning Goals</b>: Students taking this course will learn the fundamentals of quantum computing and be equipped for further study in the field and for research and industry.
                             <br>
                             <br>
-                            <b> Prerequisites</b>: Preferred: Math 54, CS61A, CS70 or equivalent
+                            <b> Prerequisites</b>: Math 54
                             <br>
+                            <b> Preferred</b>: CS61A, CS70, Physics 7C (or their respective equivalents)
                             <b> Beneficial for a deeper understanding</b>: Physics 137A, CS 170, Math 110
                             <br>
                             <br>
-                            <b> Textbooks</b>: edx course, Vazirani lecture notes. Optional: Isaac L Chuang.
+                            <b> Textbooks</b>: Course slides/lecture notes, Vazirani lecture notes. Optional: Nielsen, Chuang; Rieffel, Polack.
                             <br>
                             <br>
                             <b> Grades</b>: 25% midterm, 40% HW (best 5 out of 7), Final Project 30%, 5% participation
@@ -92,21 +88,6 @@
                             <br>
                             <b> Participation</b>: Ask questions and interact in class. For students not comfortable asking questions in class, participation points can be achieved by attending office hours, attending events, scheduling meetings with instructors, or extra credit projects.
                             <br>
-                            <br>
-                            <b> Schedule</b>: 12 weeks: Aug 30th - Nov 28th
-                            <br> Week 1: Intro class (Both) [Aug 30th]
-                            <br> Week 2: Double Slit experiment (Dhruv ), Linear Algebra Review (Vectors, dot product, matrix multiplication, bases, Complex numbers) (Daniel), [Sept 4, 6]
-                            <br> Week 3: Qubits, uncertainty principle (Dhruv), Tensor product (Dhruv) [Sept 11, 13]
-                            <br> Week 4: Axioms of QM, two qubits (Dhruv), and entanglement (Daniel) [Sept 18, 20]
-                            <br> Week 5: Bell Inequalities, quantum gates (Daniel) [Sep 25, 27]
-                            <br> Week 6: Quantum Teleportation, Quantum circuits (Dhruv) [Oct 2, 4]
-                            <br> Week 7: Early Quantum Algorithms (Dhruv), FFT (Daniel) [Oct 9, 11]
-                            <br> Week 8: QFT, Quantum Factoring (Shor's) (Dhruv) [Oct 16, 18]
-                            <br> Week 9: Midterm, Search/Grover's algorithm (Daniel) [Oct 23, 25]
-                            <br> Week 10: Diagonalization, Schrodinger's equation/Special Topics (Adiabatic) [Oct 30, Nov 1]
-                            <br> Week 11: Special Topics [Nov 6, 8]
-                            <br> Week 12: Special Topics [Nov 13, 15]
-                            <br> Week 13: Final Projects Due, No instruction
                             <br>
                             <br>
                             <b> Math Topics</b>: Vectors, matrix multiplication, bases, dot product, complex numbers, tensor product, diagonalization, eigenvectors
