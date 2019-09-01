@@ -37,8 +37,8 @@
                 <div class="row featurette">
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Partial Quantum Search: Spring '19</h2>
-                        <p class="lead">This semester, we will be implementing a variation of Grover’s canonical search algorithm, known as partial quantum search, in pyquil, a Python quantum computing library.
-                            CS 191, the Quantum Computing DeCal, or equivalent, is recommended for this project. <br> <a href = "https://arxiv.org/abs/quant-ph/0407122" target="_blank"> Link to the paper</a>. <br> Sign up if interested <a href = "https://docs.google.com/forms/d/e/1FAIpQLSdFrf8omAE8v5zJ6cQWRpCAf6QXpwt27cDJtxpHQyGgc8vwiw/viewform" target="_blank"> here</a>.</p>
+                        <p class="lead">We implemented a variation of Grover’s canonical search algorithm, known as partial quantum search, in pyquil (a Python quantum computing library by Rigetti).
+                        <br> <a href = "https://arxiv.org/abs/quant-ph/0407122" target="_blank"> Link to the original paper</a>.</p>
                         </div>
                         <div class="col-md-5" style="background-color: #fff">
                             <img class="featurette-image img-fluid mx-auto" src="images/project2.png" alt="Generic placeholder image" style="padding-top: 139px;padding-bottom: 139px; border:1px solid #021a40;">
@@ -48,7 +48,7 @@
                     <div class="row featurette" style="padding-bottom: 20px">
                         <div class="col-md-7 order-md-2">
                             <h2 class="featurette-heading">Qubit Project</h2>
-                            <p class="lead">The qubit project aims to construct simulations of low-qubit quantum computers on classical computers. This is accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal is to implement both Shor's and Grover's algorithms on the resulting, simulated quantum computer.</p>
+                            <p class="lead">The qubit project aimed to construct simulations of low-qubit quantum computers on classical computers. This was accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal was to implement both Shor's and Grover's algorithms on the resulting simulated quantum computer.</p>
                         </div>
                         <div class="col-md-5 order-md-1">
                             <img class="featurette-image img-fluid mx-auto" src="images/project1.png" alt="Generic placeholder image">
