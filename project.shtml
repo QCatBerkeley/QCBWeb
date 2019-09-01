@@ -48,7 +48,7 @@
                     <div class="row featurette" style="padding-bottom: 20px">
                         <div class="col-md-7 order-md-2">
                             <h2 class="featurette-heading">Qubit Project</h2>
-                            <p class="lead">The qubit project aimed to construct simulations of low-qubit quantum computers on classical computers. This was accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. The ultimate goal was to implement both Shor's and Grover's algorithms on the resulting simulated quantum computer.</p>
+                            <p class="lead">The qubit project aimed to construct simulations of low-qubit quantum computers on classical computers. This was accomplished by first constructing simulations of qubits, then simulating increasingly complex gate operations on them. </p>
                         </div>
                         <div class="col-md-5 order-md-1">
                             <img class="featurette-image img-fluid mx-auto" src="images/project1.png" alt="Generic placeholder image">
